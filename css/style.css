@@ -1,0 +1,85 @@
+body {
+	margin: 0;
+	background: #141414;
+}
+#content {
+	margin: 0;
+	width: 100%;
+	position: relative;
+}
+#content > img {
+	margin: 0;
+	width: 100%;
+	padding: 0;
+
+}
+#title {
+	position: absolute;
+	top: 25px;
+	right: 85px;
+	width: 600px;
+	height: 200px;
+}
+.title_list {
+	float: left;
+}
+.title_list > h1 {
+	font-family: 'Cabin Sketch', cursive;
+	color: #fff;
+	font-size: 135px;
+	line-height: 0px;
+	cursor: pointer;
+}
+.show_list > ul {
+	list-style: none;
+	margin-top: -40px;
+}
+.show_list > ul > li {
+	font-family: 'Cabin Sketch', cursive;
+	color: #fff;
+	font-size: 40px;
+}
+#all_women {
+	position: absolute;
+	width: 40%;
+	top: 225px;
+	left: 150px;
+}
+.women {
+	display: block;
+	float: left;
+	width: 30%;
+}
+.women > img {
+	height: 100px;
+	border-radius: 50px; 
+	margin-top: 20px;
+	cursor: pointer;
+}
+.women:first-child {
+	margin-top: 125px;
+}
+.women:last-child {
+	margin-top: 125px;
+}
+#footer {
+    font-family: 'The Girl Next Door', cursive;
+    color: white;
+    font-size: 15px;
+	position: absolute;
+	bottom: 0px;
+	left: 590px;
+}
+#footer > p {
+	line-height: 0px;
+}
+#footer > p > a {
+    text-decoration: none;
+    color: #d9b2b2;
+}
+#footer > p > a:hover {
+    color: #fff;
+}
+.hide {
+	opacity: 0.0;
+}
